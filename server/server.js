@@ -10,8 +10,8 @@ const webpackHotMiddleware = require("webpack-hot-middleware");
 const app = express();
 
 // Replace with your mongoLab URI
-const MONGO_URI =
-  "mongodb+srv://tuna:tuna@graphql-bfbuc.mongodb.net/graphql?retryWrites=true&w=majority";
+const MONGO_URI = `mongodb+srv://AYKhaled:i5goFjPmg6AsmztT@lyrics.i1h7z.mongodb.net/Lyrics?retryWrites=true&w=majority`;
+
 if (!MONGO_URI) {
   throw new Error("You must provide a MongoLab URI");
 }
